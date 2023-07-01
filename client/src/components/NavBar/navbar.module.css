@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 3.5em;
+    width: 70em;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.675), rgb(108, 108, 108));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 2px solid rgba(86, 86, 86, 0.258);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.home{
+    position: relative;
+    background-color: transparent;
+    font-size: 24px;
+    border: none;
+    height: 2.5em;
+    width: 4em;
+    color: black;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+.home:after{
+    position: absolute;
+    content: "" ;
+    background-color: black;
+    left: 0;
+    bottom: 4px;
+    height: 3px;
+    width: 0%;
+    transition: 0.3s;
+}
+
+.home:hover:after{
+
+    width: 100%;
+}
+
+.activity{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    height: 2.5em;
+    width: 7em;
+    color: black;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+.activity:after{
+    position: absolute;
+    content: "" ;
+    background-color: black;
+    left: 0;
+    bottom: 4px;
+    height: 3px;
+    width: 0%;
+    transition: 0.3s;
+}
+
+.activity:hover:after{
+
+    width: 100%;
+}

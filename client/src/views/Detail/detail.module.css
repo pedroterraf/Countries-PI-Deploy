@@ -1,0 +1,106 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detail{
+    text-align: center;
+     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin: 5px; 
+    padding: 50px;
+    width: 500px;
+    height: 600px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-shadow: 8px 8px 8px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.2px rgb(210, 210, 210);
+}
+
+.activities{    
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+     text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    padding: 50px;
+    width: 500px;
+    height: 600px;
+    
+}
+
+.activitiesTitle{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-shadow: 8px 8px 8px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.2px rgb(210, 210, 210);
+}
+
+.activity{
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-shadow: 8px 8px 8px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.2px rgb(210, 210, 210);
+    padding: 10px;
+    
+}
+.activity:hover{
+    background-color: #302200;
+    color: #F4E5C2;
+}
+
+
+
+.eachActivity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    width: 500px;
+    height: 60px;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-shadow: 8px 8px 8px rgb(0, 0, 0);
+    -webkit-text-stroke: 0.2px rgb(134, 134, 134);
+}
+
+.deleteButton{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 12px;
+    color: black;
+    padding: 7px;
+    transition: 500ms;
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.deleteButton:hover{
+    background-color: #302200;
+    color: #F4E5C2;
+    transition: 500ms;
+    text-align: center;
+}
