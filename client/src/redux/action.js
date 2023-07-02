@@ -14,9 +14,8 @@ import {
 import axios from "axios";
 
 const endpointCountries =
-  "https://countries-pi-deploy-production.up.railway.app";
-const endpointActivities =
-  "https://countries-pi-deploy-production.up.railway.app/activities";
+  "https://countries-pi-deploy-production.up.railway.app/home";
+const endpointActivities = "http://localhost:3001/activities";
 
 export const allCountries = () => {
   return async function (dispatch) {
