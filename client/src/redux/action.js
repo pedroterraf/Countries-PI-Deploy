@@ -14,7 +14,7 @@ import {
 import axios from "axios";
 
 const endpointCountries =
-  "https://countries-pi-deploy-production.up.railway.app/countries";
+  "https://countries-pi-deploy-production.up.railway.app";
 const endpointActivities =
   "https://countries-pi-deploy-production.up.railway.app/activities";
 
