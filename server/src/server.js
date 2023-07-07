@@ -8,6 +8,12 @@ const server = express();
 
 server.use(express.json());
 server.use(cors());
+const corsOptions = {
+  origin: "http://localhost:5173",
+  credentials: true, //access-control-allow-credentials:true
+  optionSuccessStatus: 200,
+};
+server.use(cors(corsOptions));
 
 server.name = "API";
 
