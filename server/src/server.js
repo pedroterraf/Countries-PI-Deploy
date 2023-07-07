@@ -3,17 +3,9 @@ const router = require("./routes/index");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
-const cors = require("cors");
 const server = express();
 
 server.use(express.json());
-server.use(cors());
-const corsOptions = {
-  origin: "http://localhost:5173",
-  credentials: true, //access-control-allow-credentials:true
-  optionSuccessStatus: 200,
-};
-server.use(cors(corsOptions));
 
 server.name = "API";
 
